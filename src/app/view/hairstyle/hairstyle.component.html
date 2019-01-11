@@ -1,0 +1,403 @@
+<!-- <button type="button" mdbBtn color="default" rounded="true" data-toggle="modal" data-target="#basicExample" (click)="frame.show()"
+  mdbWavesEffect>Launch Modal</button> -->
+
+  <div mdbModal #frame="mdbModal" class="modal fade top" id="frameModalTop" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-success" role="document">
+      <!--Content-->
+      <div class="modal-content">
+          <!--Header-->
+          <div class="modal-header">
+              <p class="heading lead">Modern Hairstyle</p>
+
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="frame.hide()">
+                  <span aria-hidden="true" class="white-text">&times;</span>
+              </button>
+          </div>
+
+          <!--Body-->
+          <div class="modal-body">
+              <div class="text-center">
+                  <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis
+                      ad consequatur
+                      in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione fuga, enim, ab officiis
+                      totam.</p>
+              </div>
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+              <a [routerLink]="['/contact']" type="button" mdbBtn color="success" class="waves-effect" mdbWavesEffect
+                  (click)="frame.hide()">Get it now
+                  <i class="fa fa-diamond ml-1"></i>
+              </a>
+              <a type="button" mdbBtn color="success" outline="true" class="waves-effect" mdbWavesEffect (click)="frame.hide()">No,
+                  thanks</a>
+          </div>
+      </div>
+      <!--/.Content-->
+  </div>
+</div>
+
+<div class="container">
+  <div class="row mt-3">
+      <div class="col-md-3">
+
+          <div class="row">
+              <!--Card-->
+              <div class="card card-cascade narrower" (click)="frame.show()">
+
+                  <!--Card image-->
+                  <div class="view overlay hm-white-slight waves-light" mdbWavesEffect>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9eb9D08JzP69VM-lxp8PRl5nlmYpH0p6ykBW_bQmeVlw7EEC9"
+                          class="img-fluid">
+                      <a>
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+                  <!--/Card image-->
+
+                  <!--Card content-->
+                  <div class="card-body text-center">
+                      <!--Title-->
+                      <h4 class="card-title font-bold mb-2"><strong>Alice Mayer</strong></h4>
+                      <!-- <h5 class="indigo-text"><strong>Photographer</strong></h5>
+
+              <h6 class='text-justify'><strong>About:</strong></h6> -->
+                      <!-- <p class='text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione perferendis
+                  quod animi dignissimos consectetur
+                  quibusdam numquam laboriosam, minus, provident...</p> -->
+
+
+
+                  </div>
+                  <!--/.Card content-->
+
+              </div>
+              <!--/.Card-->
+          </div>
+          <div class="row mt-5">
+
+              <div class="col-lg-12 col-xl-12 mb-3">
+
+                  <!--Card-->
+                  <div class="card card-cascade narrower d-flex mb-5" (click)="frame.show()">
+
+                      <!--Card image-->
+                      <div class="view overlay hm-white-slight waves-light" mdbWavesEffect>
+                          <img src="http://www.adorethelife.com/wp-content/uploads/2016/01/curly-hair.jpg" class="img-fluid">
+                          <a>
+                              <div class="mask"></div>
+                          </a>
+                      </div>
+                      <!--/Card image-->
+
+                      <!--Card content-->
+                      <div class="card-body text-center">
+                          <!--Title-->
+                          <h4 class="card-title font-bold mb-2"><strong>Alice Mayer</strong></h4>
+                          <!-- <h5 class="indigo-text"><strong>Photographer</strong></h5>
+
+                  <h6 class='text-justify'><strong>About:</strong></h6> -->
+                          <!-- <p class='text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+                      perferendis quod animi dignissimos consectetur
+                      quibusdam numquam laboriosam, minus, provident...</p> -->
+
+
+
+                      </div>
+                      <!--/.Card content-->
+
+                  </div>
+                  <!--/.Card-->
+              </div>
+          </div>
+
+          <div class="row mt-2">
+              <!--Card-->
+              <div class="card card-cascade narrower d-flex mb-5" (click)="frame.show()">
+
+                  <!--Card image-->
+                  <div class="view overlay hm-white-slight">
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxJDhpegzkgSpjVVVheZxuHRyQmp0fFyBjG4s047fzvS2a6KtiUA"
+                          class="img-fluid" alt="">
+                      <a>
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+
+                  <!--Card content-->
+                  <div class="card-body">
+                      <!--Title-->
+                      <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                      <!--Text-->
+
+
+                  </div>
+
+
+
+              </div>
+              <!--/.Card-->
+          </div>
+
+          <div class="row mt-5 mr-2">
+
+              <!--Card-->
+              <div class="card card-cascade narrower d-flex mb-5" (click)="frame.show()">
+
+                  <!--Card image-->
+                  <div class="view overlay hm-white-slight">
+                      <img src="https://www.treeclimbingasia.org/wp-content/uploads/2018/09/side-swept-bangs-short-hair-bob-hairstyle-guide-different-types-of-bobs-amp-how-to-wear-them-of-side-swept-bangs-short-hair.jpg"
+                          class="img-fluid" alt="">
+                      <a>
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+
+                  <!--Card content-->
+                  <div class="card-body">
+                      <!--Title-->
+                      <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                      <!--Text-->
+
+
+                  </div>
+
+
+
+              </div>
+              <!--/.Card-->
+
+          </div>
+
+      </div>
+
+      <div class="col-md-9">
+
+          <!--Projects section v.2-->
+          <section class="section text-center pb-3">
+
+              <!--Section heading-->
+              <!-- <h2 class="section-heading h1 pt-4"><strong>Latest projects:</strong></h2> -->
+              <!--Section description-->
+
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+
+                  <!--Grid column-->
+                  <div class="col-lg-6 col-xl-5 mb-3 mt-5">
+
+                      <!--Card-->
+                      <div class="card card-cascade narrower" (click)="frame.show()">
+
+                          <!--Card image-->
+                          <div class="view overlay hm-white-slight waves-light" mdbWavesEffect>
+                              <img src="http://www.shorthairgirl.com/wp-content/uploads/2015/05/11113__The-Asian-look.jpg"
+                                  class="img-fluid">
+                              <a>
+                                  <div class="mask"></div>
+                              </a>
+                          </div>
+                          <!--/Card image-->
+
+                          <!--Card content-->
+                          <div class="card-body text-center">
+                              <!--Title-->
+                              <h4 class="card-title font-bold mb-2"><strong>Alice Mayer</strong></h4>
+                              <!-- <h5 class="indigo-text"><strong>Photographer</strong></h5>
+
+                          <h6 class='text-justify'><strong>About:</strong></h6> -->
+                              <!-- <p class='text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
+                              perferendis quod animi dignissimos consectetur
+                              quibusdam numquam laboriosam, minus, provident...</p> -->
+
+
+
+                          </div>
+                          <!--/.Card content-->
+
+                      </div>
+                      <!--/.Card-->
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-6 col-xl-5 mb-3">
+
+                      <!--Card-->
+                      <div class="card card-cascade narrower d-flex mb-5 mt-2" (click)="frame.show()">
+
+                          <!--Card image-->
+                          <div class="view overlay hm-white-slight">
+                              <img src="https://blagojnacoski.com/wp-content/uploads/2018/11/all-types-of-haircuts-fresh-many-types-hairstyle-unique-luxury-different-types-hairstyle-of-all-types-of-haircuts.jpg"
+                                  class="img-fluid" alt="">
+                              <a>
+                                  <div class="mask"></div>
+                              </a>
+                          </div>
+
+                          <!--Card content-->
+                          <div class="card-body">
+                              <!--Title-->
+                              <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                              <!--Text-->
+                              <!-- <p class="card-text">Some 1 quick example text to build on the card title and make up the
+                              bulk of the card's content.
+                          </p> -->
+                          </div>
+
+
+
+                      </div>
+                      <!--/.Card-->
+
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-xl-5 mb-3">
+
+                      <!--Card-->
+                      <div class="card card-cascade narrower d-flex mb-5" (click)="frame.show()">
+
+                          <!--Card image-->
+                          <div class="view overlay hm-white-slight">
+                              <img src="http://www.markaresayan.com/wp-content/uploads/2018/01/different-hairstyle-for-curly-hair-best-of-different-hairstyles-with-various-types-of-curls-of-different-hairstyle-for-curly-hair.jpg"
+                                  class="img-fluid" alt="">
+                              <a>
+                                  <div class="mask"></div>
+                              </a>
+                          </div>
+
+                          <!--Card content-->
+                          <div class="card-body">
+                              <!--Title-->
+                              <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                              <!--Text-->
+                              <!-- <p class="card-text">Some 1 quick example text to build on the card title and make up the
+                              bulk of the card's content.
+                          </p> -->
+                          </div>
+
+
+
+                      </div>
+                      <!--/.Card-->
+
+
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-xl-5 mb-3">
+
+                      <!--Card-->
+                      <div class="card card-cascade narrower d-flex mb-5 mt-5" (click)="frame.show()">
+
+                          <!--Card image-->
+                          <div class="">
+                              <img src="https://www.lorealparisusa.com/~/media/images/lop/home/products/hair/hair-color/sliders/haircolor-mobile.jpg"
+                                  class="img-fluid" alt="">
+                              <a>
+                                  <div class="mask"></div>
+                              </a>
+                          </div>
+
+                          <!--Card content-->
+                          <div class="card-body">
+                              <!--Title-->
+                              <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                              <!--Text-->
+                              <!-- <p class="card-text">Some quick example text to build on the card title and make up the
+                              bulk of the card's content.
+                          </p> -->
+
+                          </div>
+
+
+
+                      </div>
+                      <!--/.Card-->
+
+                  </div>
+
+
+                  <div class="row d-flex justify-content-between">
+
+                      <!--Grid column-->
+                      <div class="col-lg-6 col-xl-6 mb-3">
+
+                          <!--Card-->
+                          <div class="card card-cascade narrower d-flex mb-5" (click)="frame.show()">
+
+                              <!--Card image-->
+                              <div class="">
+                                  <img src="http://pophaircuts.com/images/2013/12/2014-Updo-Hairstyles-Different-types-of-bun-hairstyles.jpg"
+                                      class="img-fluid" alt="">
+                                  <a>
+                                      <div class="mask"></div>
+                                  </a>
+                              </div>
+
+                              <!--Card content-->
+                              <div class="card-body">
+                                  <!--Title-->
+                                  <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                                  <!--Text-->
+
+
+                              </div>
+
+
+
+                          </div>
+                          <!--/.Card-->
+
+                      </div>
+
+                      <div class="col-lg-6 col-xl-6 mb-3 mt-5">
+
+                          <div class="card card-cascade narrower d-flex mb-5" style="margin-top:-10px" (click)="frame.show()">
+
+                              <!--Card image-->
+                              <div class="view overlay hm-white-slight">
+                                  <img src="https://fepa-philately.com/wp-content/uploads/2018/08/different-types-hair-styles-for-women-hair-style-for-unique-types-of-hairstyles-for-women.jpg"
+                                      class="img-fluid" alt="">
+                                  <a>
+                                      <div class="mask"></div>
+                                  </a>
+                              </div>
+
+                              <!--Card content-->
+                              <div class="card-body">
+                                  <!--Title-->
+                                  <h4 class="card-title font-bold mb-3"><strong>Project name</strong></h4>
+                                  <!--Text-->
+
+
+                              </div>
+
+
+
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+              <!--Grid row-->
+
+          </section>
+          <!--/Projects section v.2-->
+      </div>
+
+
+  </div>
+</div>

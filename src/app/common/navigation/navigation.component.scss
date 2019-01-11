@@ -1,0 +1,14 @@
+.nav-link{
+	font-family: Century Gothic;
+	font-weight: 600;
+	color:black;
+}
+
+ul li a{
+	margin: 5px 25px;
+}
+ul li a:hover{
+	background-color: grey;
+	transition: 0.8s ease;
+	color:white;
+}

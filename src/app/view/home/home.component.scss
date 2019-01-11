@@ -1,0 +1,57 @@
+
+
+.nav-link{
+	font-family: Century Gothic;
+	font-weight: 600;
+	color:black;
+}
+
+ul li a{
+	margin: 5px 25px;
+}
+ul li a:hover{
+	background-color: grey;
+	transition: 0.8s ease;
+	color:white;
+}
+.col-8{
+	margin-left: 0;
+}
+.col-4{
+	text-align: center;
+	padding: 100px 1px;
+	margin-left:0;
+	border-spacing: border-box;
+}
+.col-4 h2{
+	font-style: italic;
+}
+.col-4 a{
+	border: 2px solid black;
+	color:black;
+	padding:5px 20px;
+	margin-top:15px;
+	text-decoration: none;
+}
+
+.jumbotron{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ_WXjHfuh0nwQkF2Gxukx9tbx_9trQd0H-nFP8T60PN-NvQ1DXw);
+	color:black;
+}
+
+.jumbotron h1{
+	font-style: italic;
+	text-align: center;
+}
+
+.jumbotron p{
+	text-align: center;
+	font-family: Courier New;
+	font-weight: 300;
+
+}
+.col-12{
+	text-align: center;
+
+	margin-top: 0;
+}
